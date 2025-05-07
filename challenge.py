@@ -1,21 +1,3 @@
-#************** Regras para desenvolvimento *****************
-
-# Novas Funções
-
-# - Criar Usuário (cliente)
-#   - Armazenar os usuários em uma lista com:
-#        - Nome
-#        - Data Nascimento
-#        - CPF (apenas números)
-#        - Endereço (Logradouro, nro - Bairro, Cidade/UF)
-#   - Não podem haver CPFs repetidos
-
-# - Criar Conta Corrente
-#   - Armazenar as contas em uma lista com:
-#        - Agência (Fixo: '0001')
-#        - Nro Conta (sequencial, iniciado em 1)
-#   - Um usuário pode ter mais de uma conta, mas uma conta pertence apenas a um usuário
-
 import os
 
 def new_window(title=''):
