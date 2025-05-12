@@ -10,7 +10,6 @@ def new_window(title=''):
     if title:
         print(title.upper().center(WIDTH))
     
-
 def menu():
     new_window()
     menu = f'''[1] - Cadastrar Usuário
@@ -145,7 +144,7 @@ def lis_accounts(accounts):
         print('\nNão existem contas cadastradas\n')
 
 def main():
-    WITHDRAWAL_LIMIT = 500
+    WITHDRAW_LIMIT = 500
     OPTIONS = [0, 1, 2, 3, 4, 5, 6, 7]
     AGENCY = '0001'
     
@@ -174,7 +173,7 @@ def main():
                     withdrawals=withdrawals,
                     balance=balance,
                     remaining_withdrawals=remaining_withdrawals,
-                    withdrwal_limit=WITHDRAWAL_LIMIT)
+                    withdrwal_limit=WITHDRAW_LIMIT)
                 
                 if withdraw_value:
                     balance -= withdraw_value
